@@ -3,11 +3,11 @@ const localConnection = new RTCPeerConnection()
 
 localConnection.onicecandidate = e =>  {
     console.log(" NEW ice candidnat!! on localconnection reprinting SDP ")
-    $("#create-offer").click(()=>{
-        alert(JSON.stringify(localConnection.localDescription))
-    })
 }
 
+$("#create-offer").click(()=>{
+    prompt("Ctrl + click to copy ", JSON.stringify(localConnection.localDescription))
+})
 
 const sendChannel = localConnection.createDataChannel("sendChannel");
  sendChannel.onmessage =e =>  $('#data_send').val(e.data)
