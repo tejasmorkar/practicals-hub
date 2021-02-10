@@ -5,9 +5,17 @@ localConnection.onicecandidate = e =>  {
     console.log(" NEW ice candidnat!! on localconnection reprinting SDP ")
 }
 
-$("#create-offer").click(()=>{
+/*$("#create-offer").click(()=>{
     prompt("Ctrl + click to copy ", JSON.stringify(localConnection.localDescription))
-})
+})*/
+
+function fun(){
+    swal({
+        title:"Offer Created",
+        text: JSON.stringify(localConnection.localDescription,undefined,2),
+        icon: "success",
+    })
+}
 
 const sendChannel = localConnection.createDataChannel("sendChannel");
  sendChannel.onmessage =e =>  $('#data_send').val(e.data)
