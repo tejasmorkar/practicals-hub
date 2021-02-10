@@ -15,8 +15,6 @@ function fun(){
         text: JSON.stringify(localConnection.localDescription,undefined,2),
         icon: "success",
     })
-
-
 }
 
 const sendChannel = localConnection.createDataChannel("sendChannel");
