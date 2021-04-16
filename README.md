@@ -50,7 +50,7 @@ Move around, explore the project, and you can contact me if you...
 4. ...want to share a feedback on the work
 5. ...etc.
 
-Send me a mail at [tejasmorkar@gmail.com](tejasmorkar@gmail.com) or [create a new Issue](https://github.com/tejasmorkar/crwn-clothing/issues/new) on this repository.
+Send me a mail at [tejasmorkar@gmail.com](tejasmorkar@gmail.com) or [create a new Issue](https://github.com/tejasmorkar/practicals-hub/issues/new) on this repository.
 You can also contact me through my [LinkedIn Profile](https://www.linkedin.com/in/tejasmorkar/).
 
 ## License
