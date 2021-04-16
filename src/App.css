@@ -1,4 +1,4 @@
-/* #282c34 #61dafb #ffffff */
+/* #282c34 #0f7592 #61dafb #ffffff */
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -29,4 +29,24 @@ body {
     height: 88vh;
 
     border-radius: 15px 0 0 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #282c34;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0f7592;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #61dafb;
 }

@@ -1,0 +1,19 @@
+.code-screen {
+    margin: 1em 0.5em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+    &-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-editor .monaco-editor {
+        border-radius: 10px !important;
+    }
+
+    &-editor .overflow-guard {
+        border-radius: 10px !important;
+    }
+}
