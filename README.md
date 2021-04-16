@@ -24,6 +24,8 @@ A an application for ease of accessibility to conduct college practical from dis
 
 -   Wait for the approval from the Maintainers of this project before starting to work on it.
 
+-   Do not make changes in the `staging` branch.
+
 -   Create a pull request after making the changes and mention the Issue number that your pull request is related to.
 
 -   That's it! Your pull request will be merged once everything seems okay.
